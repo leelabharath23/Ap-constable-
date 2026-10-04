@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <!-- Definitions for gradients & text paths -->
+  <defs>
+    <path id="textPathTop" d="M 46,105 A 54,54 0 1,1 154,105" fill="none" />
+    <!-- Gold metallic gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5B2" />
+      <stop offset="30%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#A57C13" />
+      <stop offset="100%" stop-color="#FFF5B2" />
+    </linearGradient>
+    <!-- Ribbon royal blue gradient -->
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <!-- LEAFY WREATH (GOLD EMBELLISHMENT) -->
+  <g stroke="url(#goldGrad)" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Side Branches -->
+    <path d="M 38,115 C 24,95 24,65 42,45 C 47,40 52,37 58,35" />
+    <path d="M 38,115 C 28,100 28,75 43,55" />
+    <!-- Left leaves -->
+    <path d="M 34,105 Q 26,101 31,95 Q 38,101 34,105 Z" fill="url(#goldGrad)" />
+    <path d="M 30,90 Q 21,87 26,80 Q 33,85 30,90 Z" fill="url(#goldGrad)" />
+    <path d="M 28,75 Q 19,70 24,63 Q 31,69 28,75 Z" fill="url(#goldGrad)" />
+    <path d="M 31,60 Q 22,53 28,47 Q 34,53 31,60 Z" fill="url(#goldGrad)" />
+    <path d="M 37,48 Q 30,40 36,34 Q 41,42 37,48 Z" fill="url(#goldGrad)" />
+
+    <!-- Right Side Branches -->
+    <path d="M 162,115 C 176,95 176,65 158,45 C 153,40 148,37 142,35" />
+    <path d="M 162,115 C 172,100 172,75 157,55" />
+    <!-- Right leaves -->
+    <path d="M 166,105 Q 174,101 169,95 Q 162,101 166,105 Z" fill="url(#goldGrad)" />
+    <path d="M 170,90 Q 179,87 174,80 Q 167,85 170,90 Z" fill="url(#goldGrad)" />
+    <path d="M 172,75 Q 181,70 176,63 Q 169,69 172,75 Z" fill="url(#goldGrad)" />
+    <path d="M 169,60 Q 178,53 172,47 Q 166,53 169,60 Z" fill="url(#goldGrad)" />
+    <path d="M 163,48 Q 170,40 164,34 Q 159,42 163,48 Z" fill="url(#goldGrad)" />
+  </g>
+
+  <!-- ASHOKA PILLAR LION CAPITAL SILHOUETTE (GOLD) AT TOP -->
+  <g transform="translate(100, 24) scale(0.6)" fill="url(#goldGrad)" stroke="url(#goldGrad)" stroke-width="0.5">
+    <path d="M -22,12 L 22,12 L 18,18 L -18,18 Z" />
+    <rect x="-16" y="2" width="32" height="10" rx="1" />
+    <circle cx="0" cy="7" r="4" fill="#0f172a" />
+    <circle cx="-9" cy="7" r="1.5" />
+    <circle cx="9" cy="7" r="1.5" />
+    <path d="M -13,2 C -13,-12 -22,-22 -10,-35 C -5,-30 -8,-18 -4,-12 Q -4,-25 0,-32 Q 4,-25 4,-12 C 8,-18 5,-30 10,-35 C 22,-22 13,-12 13,2 Z" />
+    <path d="M -5,-5 L 5,-5 L 3,-22 L -3,-22 Z" fill="#805d05" opacity="0.4" />
+  </g>
+
+  <!-- OUTER RING CIRCLE -->
+  <circle cx="100" cy="105" r="49" fill="#0f172a" stroke="url(#goldGrad)" stroke-width="2.5" />
+
+  <!-- INNER TEXT BLUE RING -->
+  <circle cx="100" cy="105" r="44" fill="#1e3a8a" />
+
+  <!-- WRITTEN TEXT: ARUNACHAL PRADESH POLICE -->
+  <text font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="7.5" fill="#ffffff" letter-spacing="0.7">
+    <textPath href="#textPathTop" startOffset="50%" text-anchor="middle">
+      ARUNACHAL PRADESH POLICE
+    </textPath>
+  </text>
+
+  <!-- INNER RED CIRCLE -->
+  <circle cx="100" cy="105" r="30" fill="#dc2626" stroke="url(#goldGrad)" stroke-width="2" />
+
+  <!-- STYLIZED APP INTUITIONS -->
+  <text x="100" y="115" font-family="'Georgia', serif" font-weight="900" font-size="28" fill="url(#goldGrad)" text-anchor="middle" font-style="italic" letter-spacing="-1">
+    APP
+  </text>
+
+  <!-- BLUE & GOLD BOTTOM BANNERS -->
+  <g>
+    <!-- Ribbon tail background -->
+    <path d="M 28,125 L 42,142 L 52,137 Z M 172,125 L 158,142 L 148,137 Z" fill="#0f172a" />
+    <!-- Ribbon Curve Body -->
+    <path d="M 38,128 C 68,155 132,155 162,128 L 150,145 C 126,168 74,168 50,145 Z" fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="1.8" />
+    <!-- Ribbon tails -->
+    <path d="M 38,128 L 18,125 L 28,144 L 50,145 L 38,128 Z" fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="1.2" />
+    <path d="M 162,128 L 182,125 L 172,144 L 150,145 L 162,128 Z" fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="1.2" />
+
+    <!-- Banner Sanskrit Slogan: सत्य • सेवा • सुरक्षा -->
+    <text x="100" y="150" font-family="'Noto Sans', 'Arial', sans-serif" font-weight="800" font-size="8.2" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+      सत्य  •  सेवा  •  सुरक्षा
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "AP Police Constable Exam Prep",
+  "description": "Comprehensive study system for AP Police Constable Exam with mock test engine, video lectures, physical benchmark tracking, daily quiz, and 4-month strategy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
